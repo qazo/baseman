@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3BCA6CE0-CF6F-4609-AAF3-C8B9F30CFD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseMan.Core", "src\BaseMan.Core\BaseMan.Core.csproj", "{34DE5DB3-555D-4640-BD99-2619EB03DC81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34DE5DB3-555D-4640-BD99-2619EB03DC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DE5DB3-555D-4640-BD99-2619EB03DC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DE5DB3-555D-4640-BD99-2619EB03DC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DE5DB3-555D-4640-BD99-2619EB03DC81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34DE5DB3-555D-4640-BD99-2619EB03DC81} = {3BCA6CE0-CF6F-4609-AAF3-C8B9F30CFD22}
+	EndGlobalSection
+EndGlobal

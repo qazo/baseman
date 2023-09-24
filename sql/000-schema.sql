@@ -2,9 +2,8 @@ create table if not exists public.user_status
 (
 	id serial2 not null constraint pk_user_status primary key,
 	name text not null constraint uq_user_status__name unique,
-	passsword_hash bytea not null,
 	description text not null,
-	created_at timestamptz not null,
+	created_at timestamptz not null
 );
 
 create table if not exists public.user
@@ -23,7 +22,7 @@ create table if not exists public.role
 (
 	id serial2 not null constraint pk_user_type primary key,
 	name text not null constraint up_user_type__name unique,
-	description not null,
+	description text not null,
 	created_at timestamptz not null,
 	created_by int4 not null
 );
